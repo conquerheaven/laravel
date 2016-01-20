@@ -154,15 +154,15 @@
                         <li id="addKehu"><a class="" href="/UserManage/addKehu"><span class="sub-menu-text">添加客户信息</span></a></li>
                     </ul>
                 </li>
-                <li class="has-sub">
+                <li class="has-sub" id="StaffManage">
                     <a href="javascript:;" class="">
-                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">一级菜单2</span>
+                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">人事管理</span>
                         <span class="arrow"></span>
                     </a>
                     <ul class="sub">
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单1</span></a></li>
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单2</span></a></li>
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单3</span></a></li>
+                        <li id="bmzwManage"><a class="" href="/StaffManage/bmzwManage"><span class="sub-menu-text">部门职位管理</span></a></li>
+                        <li><a class="" href="#"><span class="sub-menu-text">员工录入</span></a></li>
+                        <li><a class="" href="#"><span class="sub-menu-text">员工列表</span></a></li>
                     </ul>
                 </li>
                 <li class="has-sub">

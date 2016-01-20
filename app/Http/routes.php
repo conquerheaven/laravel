@@ -42,6 +42,11 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/Shoukuanfs/getAll','ShoukuanfsController@getAll');
 
 	Route::get('/User/getAll','UserController@getAll');
+
+	Route::get('/Bm/getAll','BmController@getAll');
+
+	Route::get('/Zw/getAll','ZwController@getAll');
+	Route::get('/Zw/getZwByBm','ZwController@getZwByBm');
 });
 
 Route::group(['prefix' => 'home', 'namespace' => 'home' ,'middleware' => 'login'], function()
@@ -54,4 +59,11 @@ Route::group(['prefix' => 'UserManage', 'namespace' => 'UserManage' ,'middleware
 	Route::get('/', 'UserManageController@index');
 	Route::get('/queryKehu', 'UserManageController@queryKehu');
 	Route::get('/addKehu', 'UserManageController@addKehu');
+});
+
+Route::group(['prefix' => 'StaffManage', 'namespace' => 'StaffManage' ,'middleware' => 'login'], function()
+{
+	Route::get('/', 'StaffManageController@index');
+	Route::get('/bmzwManage', 'StaffManageController@bmzwManage');
+	Route::get('/addKehu', 'StaffManageController@addKehu');
 });
