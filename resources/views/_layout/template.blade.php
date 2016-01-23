@@ -72,6 +72,9 @@
     <script type="text/javascript" src="{{ asset('CloudAdmin/js/jqgrid/js/jquery.jqGrid.min.js') }}"></script>
     <!-- SELECT2 -->
     <script type="text/javascript" src="{{ asset('CloudAdmin/js/select2/select2.min.js') }}"></script>
+    <!--jquery-validate-->
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/jquery-validate/jquery.validate.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/jquery-validate/additional-methods.min.js') }}"></script>
 </head>
 <body>
 <!-- HEADER -->

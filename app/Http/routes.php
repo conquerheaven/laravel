@@ -44,9 +44,13 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/User/getAll','UserController@getAll');
 
 	Route::get('/Bm/getAll','BmController@getAll');
+	Route::post('/Bm/insert','BmController@insert');
+	Route::post('/Bm/deleteByBm_id','BmController@deleteByBm_id');
 
 	Route::get('/Zw/getAll','ZwController@getAll');
 	Route::get('/Zw/getZwByBm','ZwController@getZwByBm');
+	Route::post('/Zw/insert','ZwController@insert');
+	Route::post('/Zw/deleteByGz_id','ZwController@deleteByGz_id');
 });
 
 Route::group(['prefix' => 'home', 'namespace' => 'home' ,'middleware' => 'login'], function()
@@ -66,4 +70,10 @@ Route::group(['prefix' => 'StaffManage', 'namespace' => 'StaffManage' ,'middlewa
 	Route::get('/', 'StaffManageController@index');
 	Route::get('/bmzwManage', 'StaffManageController@bmzwManage');
 	Route::get('/addKehu', 'StaffManageController@addKehu');
+
+	Route::get('/Bm_nameValidate','StaffManageController@Bm_nameValidate');
+	Route::get('/Bm_idValidate','StaffManageController@Bm_idValidate');
+
+	Route::get('/Gz_nameValidate','StaffManageController@Gz_nameValidate');
+	Route::get('/Gz_idValidate','StaffManageController@Gz_idValidate');
 });

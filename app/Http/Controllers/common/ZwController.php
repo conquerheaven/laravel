@@ -97,4 +97,45 @@ class ZwController extends Controller {
 			return json_encode(array('result'=>false ,'message'=>$e));
 		}
 	}
+
+	public function getZwByGz_name($gz_name){
+		$zw = Zw::where('gz_name',$gz_name)->get();
+		if(count($zw) == 0){
+			return json_encode(array('result'=>false , 'zw'=>$zw));
+		}else{
+			return json_encode(array('result'=>true , 'zw'=>$zw));
+		}
+	}
+
+	public function getZwByGz_id($gz_id){
+		$zw = Zw::where('gz_id',$gz_id)->get();
+		if(count($zw) == 0){
+			return json_encode(array('result'=>false , 'zw'=>$zw));
+		}else{
+			return json_encode(array('result'=>true , 'zw'=>$zw));
+		}
+	}
+
+	public function insert(){
+		$zw = Input::all();
+		try{
+			Zw::insert($zw);
+			return json_encode(array('result'=>true));
+		}catch (Exception $e){
+			return json_encode(array('result'=>false , 'message'=>$e));
+		}
+	}
+
+	public function deleteByGz_id(){
+		$gz_id = Input::get('gz_id');
+		try{
+			$zw = Zw::where('gz_id',$gz_id)->delete();
+			return json_encode(array('result'=>true));
+		}catch (Exception $e){
+			return json_encode(array('result'=>false,'message'=>$e));
+		}
+
+
+	}
 }
+
