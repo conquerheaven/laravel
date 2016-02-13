@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers\StaffManage;
 
 use App\Http\Controllers\common\BmController;
+use App\Http\Controllers\common\YgdanganController;
 use App\Http\Controllers\common\ZwController;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -88,6 +89,13 @@ class StaffManageController extends Controller {
 		return view('StaffManage/bmzwManage');
 	}
 
+	public function addStaff(){
+		return view('StaffManage/addStaff');
+	}
+	public function queryStaff(){
+		return view('StaffManage/queryStaff');
+	}
+
 	public function Bm_nameValidate(){
 		$bm_name = Input::get('bm_name');
 		$BmController = new BmController();
@@ -124,6 +132,15 @@ class StaffManageController extends Controller {
 		$jsonData = $ZwController->getZwByGz_name($gz_name);
 		$arr = json_decode($jsonData,true);
 		//return $jsonData;
+		if($arr['result']) return 'false';
+		else return 'true';
+	}
+
+	public function BianhaoValidate(){
+		$bianhao = Input::get('bianhao');
+		$YgdanganController = new YgdanganController();
+		$jsonData = $YgdanganController->getByBianhao($bianhao);
+		$arr = json_decode($jsonData,true);
 		if($arr['result']) return 'false';
 		else return 'true';
 	}

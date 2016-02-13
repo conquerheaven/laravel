@@ -51,6 +51,14 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/Zw/getZwByBm','ZwController@getZwByBm');
 	Route::post('/Zw/insert','ZwController@insert');
 	Route::post('/Zw/deleteByGz_id','ZwController@deleteByGz_id');
+
+	Route::get('/Ygdangan/getAll','YgdanganController@getAll');
+	Route::get('/Ygdangan/getByNameStats','YgdanganController@getByNameStats');
+	Route::post('/Ygdangan/insert','YgdanganController@insert');
+
+	Route::get('/Address/getAllProvince','AddressController@getAllProvince');
+	Route::get('/Address/getCityByProvincecode','AddressController@getCityByProvincecode');
+	Route::get('/Address/getCountyByCitycode','AddressController@getCountyByCitycode');
 });
 
 Route::group(['prefix' => 'home', 'namespace' => 'home' ,'middleware' => 'login'], function()
@@ -69,11 +77,14 @@ Route::group(['prefix' => 'StaffManage', 'namespace' => 'StaffManage' ,'middlewa
 {
 	Route::get('/', 'StaffManageController@index');
 	Route::get('/bmzwManage', 'StaffManageController@bmzwManage');
-	Route::get('/addKehu', 'StaffManageController@addKehu');
+	Route::get('/addStaff', 'StaffManageController@addStaff');
+	Route::get('/queryStaff', 'StaffManageController@queryStaff');
 
 	Route::get('/Bm_nameValidate','StaffManageController@Bm_nameValidate');
 	Route::get('/Bm_idValidate','StaffManageController@Bm_idValidate');
 
 	Route::get('/Gz_nameValidate','StaffManageController@Gz_nameValidate');
 	Route::get('/Gz_idValidate','StaffManageController@Gz_idValidate');
+
+	Route::get('/BianhaoValidate','StaffManageController@BianhaoValidate');
 });

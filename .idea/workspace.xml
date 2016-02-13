@@ -25,22 +25,23 @@
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/_layout/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0172415">
-              <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.6785714">
+              <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
               <folding>
-                <marker date="1453297992693" expanded="true" signature="11702:11707" placeholder="..." />
-                <marker date="1453297992693" expanded="true" signature="11702:11708" placeholder="{...}" />
+                <marker date="1455178645539" expanded="true" signature="12200:12205" placeholder="..." />
+                <marker date="1455178645539" expanded="true" signature="12200:12206" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmzwManage.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bmzwManage.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/StaffManage/bmzwManage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7041522">
-              <caret line="304" column="214" selection-start-line="304" selection-start-column="214" selection-end-line="304" selection-end-column="214" />
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
               <folding>
+                <element signature="e#284#3264#0#HTML" expanded="false" />
                 <element signature="e#1075#1092#0#HTML" expanded="true" />
                 <element signature="e#1572#1589#0#HTML" expanded="true" />
                 <element signature="e#1692#1723#0#HTML" expanded="true" />
@@ -57,33 +58,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BmController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/BmController.php">
+      <file leaf-file-name="addStaff.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/StaffManage/addStaff.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.589286">
-              <caret line="127" column="5" selection-start-line="117" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.49186048">
+              <caret line="384" column="50" selection-start-line="384" selection-start-column="50" selection-end-line="384" selection-end-column="50" />
               <folding>
-                <element signature="e#46#57#0#PHP" expanded="true" />
+                <element signature="e#1010#1027#0#HTML" expanded="true" />
+                <element signature="e#1474#1491#0#HTML" expanded="true" />
+                <element signature="e#1995#2012#0#HTML" expanded="true" />
+                <element signature="e#2578#2595#0#HTML" expanded="true" />
+                <element signature="e#3278#3295#0#HTML" expanded="true" />
+                <element signature="e#4017#4034#0#HTML" expanded="true" />
+                <element signature="e#4628#4645#0#HTML" expanded="true" />
+                <element signature="e#4702#5149#0#HTML" expanded="false" />
+                <element signature="e#5096#5113#0#HTML" expanded="true" />
+                <element signature="e#6402#6419#0#HTML" expanded="true" />
+                <element signature="e#6900#6917#0#HTML" expanded="true" />
+                <element signature="e#7364#7381#0#HTML" expanded="true" />
+                <element signature="e#7826#7843#0#HTML" expanded="true" />
+                <element signature="e#7941#7972#0#HTML" expanded="true" />
+                <element signature="e#8079#8112#0#HTML" expanded="true" />
+                <element signature="e#8251#8272#0#HTML" expanded="true" />
+                <element signature="e#8819#8912#0#HTML" expanded="false" />
+                <element signature="e#8955#10485#0#HTML" expanded="false" />
+                <element signature="e#11672#12185#0#HTML" expanded="false" />
+                <element signature="e#12220#12895#0#HTML" expanded="false" />
+                <element signature="e#12930#13569#0#HTML" expanded="false" />
+                <element signature="e#13623#14329#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KehuController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/KehuController.php">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/CloudAdmin/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.964285">
-              <caret line="191" column="51" selection-start-line="191" selection-start-column="51" selection-end-line="191" selection-end-column="51" />
-              <folding />
+            <state vertical-scroll-proportion="-10.5">
+              <caret line="798" column="38" selection-start-line="798" selection-start-column="38" selection-end-line="798" selection-end-column="38" />
+              <folding>
+                <marker date="1451145489000" expanded="true" signature="26019:26056" placeholder="..." />
+                <marker date="1451145489000" expanded="true" signature="56157:56187" placeholder="..." />
+                <marker date="1451145489000" expanded="true" signature="57311:57443" placeholder="..." />
+                <marker date="1451145489000" expanded="true" signature="107076:107089" placeholder="..." />
+                <marker date="1451145489000" expanded="true" signature="107301:107313" placeholder="..." />
+                <marker date="1451145489000" expanded="true" signature="107363:107376" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZwController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/ZwController.php">
+      <file leaf-file-name="BmController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/BmController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.589286">
-              <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+            <state vertical-scroll-proportion="-16.5">
+              <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -92,35 +121,10 @@
       <file leaf-file-name="StaffManageController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaffManage/StaffManageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.482142">
-              <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+            <state vertical-scroll-proportion="-11.660714">
+              <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
               <folding>
                 <element signature="e#51#96#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.910714">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-              <folding>
-                <element signature="e#7#392#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queryKehu.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/UserManage/queryKehu.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="200" column="32" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
-              <folding>
-                <marker date="1452693575258" expanded="true" signature="8852:9074" placeholder="..." />
-                <marker date="1452693575258" expanded="true" signature="9129:9376" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -129,10 +133,30 @@
       <file leaf-file-name="addKehu.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/UserManage/addKehu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.75">
-              <caret line="134" column="34" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="34" />
+            <state vertical-scroll-proportion="-2.0357144">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YgdanganController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/YgdanganController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.214286">
+              <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.267858">
+              <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
               <folding>
-                <element signature="e#7019#7040#0#HTML" expanded="true" />
+                <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +165,10 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,12 +202,20 @@
         <option value="$PROJECT_DIR$/resources/views/_layout/login.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_01_19_071838_create_bms_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_01_19_071854_create_zws_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/_layout/template.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/common/BmController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StaffManage/StaffManageController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/common/ZwController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/StaffManage/bmzwManage.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_01_23_034144_create_ygdangans_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/StaffManage/queryStaff.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_01_23_093838_create_provinces_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_01_23_093847_create_cities_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_01_23_093859_create_counties_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/common/AddressController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StaffManage/StaffManageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/common/YgdanganController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/_layout/template.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/StaffManage/addStaff.blade.php" />
       </list>
     </option>
   </component>
@@ -201,8 +236,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -328,6 +363,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -343,6 +400,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,17 +656,19 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\laravel\resources\views\home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\laravel\public\CloudAdmin" />
       <recent name="D:\wamp\www\laravel\app\Http\Controllers" />
       <recent name="D:\wamp\www\laravel\app\Http\Controllers\home" />
       <recent name="C:\wamp\www\laravel\public\CloudAdmin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\laravel\public\CloudAdmin\js\bootstrap-datetimepicker" />
+      <recent name="D:\wamp\www\laravel\resources\views\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -624,11 +715,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -663,90 +754,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29584774">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/bootstrap-dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40759075">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12541254">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.892858">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.321428">
@@ -765,6 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.321428">
           <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/CloudAdmin/js/jqgrid/css/ui.jqgrid.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33293268">
@@ -885,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="1420" column="41" selection-start-line="1420" selection-start-column="41" selection-end-line="1420" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_01_13_021626_create_shoukuanfs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.767857">
@@ -910,13 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.92227376">
           <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.214286">
-          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -973,17 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/_layout/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0172415">
-          <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
-          <folding>
-            <marker date="1453297992693" expanded="true" signature="11702:11707" placeholder="..." />
-            <marker date="1453297992693" expanded="true" signature="11702:11708" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/KehuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.964285">
@@ -992,59 +968,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/UserManage/addKehu.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_01_23_034144_create_ygdangans_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75">
-          <caret line="134" column="34" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="34" />
-          <folding>
-            <element signature="e#7019#7040#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-5.125">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaffManage/StaffManageController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.482142">
-          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
-          <folding>
-            <element signature="e#51#96#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-6.785714">
+          <caret line="10" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/BmController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.589286">
-          <caret line="127" column="5" selection-start-line="117" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#57#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-13.5">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_01_23_093847_create_cities_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.446429">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_01_23_093859_create_counties_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/StaffManage/queryStaff.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.571428">
+          <caret line="87" column="349" selection-start-line="87" selection-start-column="349" selection-end-line="87" selection-end-column="349" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/ZwController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.589286">
-          <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.910714">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.59240925">
+          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_01_23_093838_create_provinces_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/AddressController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
+            <element signature="e#46#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.1369637">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/StaffManage/bmzwManage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7041522">
-          <caret line="304" column="214" selection-start-line="304" selection-start-column="214" selection-end-line="304" selection-end-column="214" />
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
           <folding>
+            <element signature="e#284#3264#0#HTML" expanded="false" />
             <element signature="e#1075#1092#0#HTML" expanded="true" />
             <element signature="e#1572#1589#0#HTML" expanded="true" />
             <element signature="e#1692#1723#0#HTML" expanded="true" />
@@ -1056,6 +1075,123 @@
             <element signature="e#5228#5259#0#HTML" expanded="true" />
             <element signature="e#5371#5404#0#HTML" expanded="true" />
             <element signature="e#5552#5573#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/UserManage/addKehu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/BmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5">
+          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.267858">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/common/YgdanganController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.214286">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaffManage/StaffManageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.660714">
+          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+          <folding>
+            <element signature="e#51#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="798" column="38" selection-start-line="798" selection-start-column="38" selection-end-line="798" selection-end-column="38" />
+          <folding>
+            <marker date="1451145489000" expanded="true" signature="26019:26056" placeholder="..." />
+            <marker date="1451145489000" expanded="true" signature="56157:56187" placeholder="..." />
+            <marker date="1451145489000" expanded="true" signature="57311:57443" placeholder="..." />
+            <marker date="1451145489000" expanded="true" signature="107076:107089" placeholder="..." />
+            <marker date="1451145489000" expanded="true" signature="107301:107313" placeholder="..." />
+            <marker date="1451145489000" expanded="true" signature="107363:107376" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CloudAdmin/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24836601">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/_layout/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6785714">
+          <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
+          <folding>
+            <marker date="1455178645539" expanded="true" signature="12200:12205" placeholder="..." />
+            <marker date="1455178645539" expanded="true" signature="12200:12206" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/StaffManage/addStaff.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49186048">
+          <caret line="384" column="50" selection-start-line="384" selection-start-column="50" selection-end-line="384" selection-end-column="50" />
+          <folding>
+            <element signature="e#1010#1027#0#HTML" expanded="true" />
+            <element signature="e#1474#1491#0#HTML" expanded="true" />
+            <element signature="e#1995#2012#0#HTML" expanded="true" />
+            <element signature="e#2578#2595#0#HTML" expanded="true" />
+            <element signature="e#3278#3295#0#HTML" expanded="true" />
+            <element signature="e#4017#4034#0#HTML" expanded="true" />
+            <element signature="e#4628#4645#0#HTML" expanded="true" />
+            <element signature="e#4702#5149#0#HTML" expanded="false" />
+            <element signature="e#5096#5113#0#HTML" expanded="true" />
+            <element signature="e#6402#6419#0#HTML" expanded="true" />
+            <element signature="e#6900#6917#0#HTML" expanded="true" />
+            <element signature="e#7364#7381#0#HTML" expanded="true" />
+            <element signature="e#7826#7843#0#HTML" expanded="true" />
+            <element signature="e#7941#7972#0#HTML" expanded="true" />
+            <element signature="e#8079#8112#0#HTML" expanded="true" />
+            <element signature="e#8251#8272#0#HTML" expanded="true" />
+            <element signature="e#8819#8912#0#HTML" expanded="false" />
+            <element signature="e#8955#10485#0#HTML" expanded="false" />
+            <element signature="e#11672#12185#0#HTML" expanded="false" />
+            <element signature="e#12220#12895#0#HTML" expanded="false" />
+            <element signature="e#12930#13569#0#HTML" expanded="false" />
+            <element signature="e#13623#14329#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

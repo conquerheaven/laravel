@@ -28,6 +28,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/jqgrid/css/ui.jqgrid.min.css') }}" />
     <!-- SELECT2 -->
     <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/select2/select2.min.css') }}" />
+    <!-- DATE Time PICKER -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css') }}" />
 
     <!-- JAVASCRIPTS -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -75,6 +77,9 @@
     <!--jquery-validate-->
     <script type="text/javascript" src="{{ asset('CloudAdmin/js/jquery-validate/jquery.validate.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('CloudAdmin/js/jquery-validate/additional-methods.min.js') }}"></script>
+    <!-- DATE TIME PICKER -->
+    <script src="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js') }}"></script>
+    <script src="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js') }}"></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -164,8 +169,8 @@
                     </a>
                     <ul class="sub">
                         <li id="bmzwManage"><a class="" href="/StaffManage/bmzwManage"><span class="sub-menu-text">部门职位管理</span></a></li>
-                        <li><a class="" href="#"><span class="sub-menu-text">员工录入</span></a></li>
-                        <li><a class="" href="#"><span class="sub-menu-text">员工列表</span></a></li>
+                        <li id="addStaff"><a class="" href="/StaffManage/addStaff"><span class="sub-menu-text">员工录入</span></a></li>
+                        <li id="queryStaff"><a class="" href="/StaffManage/queryStaff"><span class="sub-menu-text">员工列表</span></a></li>
                     </ul>
                 </li>
                 <li class="has-sub">
