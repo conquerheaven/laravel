@@ -54,14 +54,15 @@ return [
 
 		'mysql' => [
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => '127.0.0.1',
 			'database'  => 'laravel',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 			'strict'    => false,
+            'port'      => 3306,
 		],
 
 		'pgsql' => [

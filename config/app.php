@@ -144,6 +144,8 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
+        'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
 
 	],
 

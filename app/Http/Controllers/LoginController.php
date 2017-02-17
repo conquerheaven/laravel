@@ -96,7 +96,7 @@ class LoginController extends Controller {
 	{
 		$username = Input::get('username');
 		$password = Input::get('password');
-		$user = User::where(['name'=>$username,'password'=>md5($password)])->first();
+		$user = User::where(['UserName'=>$username,'PassWord'=>md5($password)])->first();
 		if($user == null){
 			$result = array('result'=>false);
 			return json_encode($result);
