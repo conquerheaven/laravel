@@ -32,6 +32,7 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/Kehu/getById','KehuController@getById');
 	Route::post('/Kehu/update','KehuController@update');
 	Route::post('/Kehu/insert','KehuController@insert');
+    Route::get('/Kehu/getFollowInfo' , 'KehuController@getFollowInfo');
 
 	Route::get('/Area/getLowerById','AreaController@getLowerById');
 
@@ -42,6 +43,7 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/Shoukuanfs/getAll','ShoukuanfsController@getAll');
 
 	Route::get('/User/getAll','UserController@getAll');
+    Route::get('/User/getFuzeren' , 'UserController@getByClassType');
 
 	Route::get('/Bm/getAll','BmController@getAll');
 	Route::post('/Bm/insert','BmController@insert');
@@ -87,4 +89,10 @@ Route::group(['prefix' => 'StaffManage', 'namespace' => 'StaffManage' ,'middlewa
 	Route::get('/Gz_idValidate','StaffManageController@Gz_idValidate');
 
 	Route::get('/BianhaoValidate','StaffManageController@BianhaoValidate');
+});
+
+Route::group(['prefix' => 'SaleManage', 'namespace' => 'SaleManage' ,'middleware' => 'login'], function()
+{
+    Route::get('/', 'SaleManageController@index');
+    Route::get('/followUp', 'SaleManageController@followUp');
 });

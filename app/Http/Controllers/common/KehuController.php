@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers\common;
 
+use App\Ddmessage;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -194,5 +195,58 @@ class KehuController extends Controller {
 			return json_encode(array('result'=>false , 'message'=>$e));
 		}
 	}
+
+    /**
+     * @return string
+     */
+    public function getFollowInfo(){
+	    $dqid = Input::get("diqu");
+        $sheng = Input::get("sheng");
+        $city = Input::get("city");
+        $xian = Input::get("xian");
+
+        $fuzeren = Input::get("fuzeren");
+
+        $pinpai = Input::get('pinpai');
+
+        $starttime = Input::get("starttime");
+        $endtime = Input::get("endtime");
+        try {
+            $sql = "1=1";
+
+            if ($dqid != -1) $sql .= " AND dqid = $dqid";
+            if ($sheng != -1) $sql .= " AND sheng = $sheng";
+            if ($city != -1) $sql .= " AND city = $city";
+            if ($xian != -1) $sql .= " AND xian = $xian";
+            if ($fuzeren != -1) $sql .= " AND fuzheren = '$fuzeren'";
+            if ($starttime != "") $sql .= " AND lastjytime >= '$starttime'";
+            if ($endtime != "") $sql .= " AND lastjytime <= '$endtime'";
+            if ($pinpai != "") $sql .= " AND pingpai like %" . $pinpai . "% OR pingpai2 like %" . $pinpai . "%";
+
+            $kehu = Kehu::whereRaw($sql)->get(['lastjytime','ID' , 'address' , 'name' , 'fuzheren' , 'lasthftime' , 'hfren']);
+            $arr = array();
+            for($i = 0; $i < count($kehu); $i++){
+                $sum = 0;//Ddmessage::where('kehuid' , $kehu[$i]['ID'])->get(sum(['sums']));
+                $dayOfjy = ceil((strtotime(date("y-m-d"))-strtotime($kehu[$i]['lastjytime']))/86400);
+                $dayOfhf = ceil((strtotime(date("y-m-d"))-strtotime($kehu[$i]['lasthftime']))/86400);
+                $arr[] = array(
+                    'lastjytime'=>$kehu[$i]['lastjytime'],
+                    'kehuid'=>$kehu[$i]['ID'],
+                    'address'=>$kehu[$i]['address'],
+                    'khname'=>$kehu[$i]['name'],
+                    'fuzeren'=>$kehu[$i]['fuzheren'],
+                    'lasthftime'=>$kehu[$i]['lasthftime'],
+                    'hfren'=>$kehu[$i]['hfren'],
+                    'jysum'=>$sum,
+                    'dayOfjy'=>$dayOfjy,
+                    'dayOfhf'=>$dayOfhf
+                );
+            }
+            return json_encode(array('result'=>true , 'followInfo'=>$arr));
+        }catch (Exception $e){
+            return json_encode(array('result'=>false , 'message'=>$e));
+        }
+
+    }
 
 }

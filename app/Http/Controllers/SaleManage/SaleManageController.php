@@ -1,12 +1,11 @@
-<?php namespace App\Http\Controllers\common;
+<?php namespace App\Http\Controllers\SaleManage;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Input;
-class UserController extends Controller {
+
+class SaleManageController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -82,15 +81,9 @@ class UserController extends Controller {
 		//
 	}
 
-	public function getAll(){
-		$user = User::all();
-		return json_encode(array('user'=>$user));
-	}
-
-	public function getByClassType(){
-	    $classType = Input::get('classType');
-	    $user = User::where('ClassTyep' , $classType)->get(['UserName']);
-        return json_encode(array('user'=>$user));
+	public function followUp()
+    {
+	    return view("SaleManage/followUp");
     }
 
 }

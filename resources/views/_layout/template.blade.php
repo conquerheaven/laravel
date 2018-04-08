@@ -30,6 +30,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/select2/select2.min.css') }}" />
     <!-- DATE Time PICKER -->
     <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css') }}" />
+    <!-- DATA TABLES -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/datatables/media/css/jquery.dataTables.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/datatables/media/assets/css/datatables.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('CloudAdmin/js/datatables/extras/TableTools/media/css/TableTools.min.css') }}" />
 
     <!-- JAVASCRIPTS -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -80,6 +84,12 @@
     <!-- DATE TIME PICKER -->
     <script src="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js') }}"></script>
     <script src="{{ asset('CloudAdmin/js/bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js') }}"></script>
+
+    <!-- DATA TABLES -->
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/datatables/media/js/jquery.dataTables.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/datatables/media/assets/js/datatables.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/datatables/extras/TableTools/media/js/TableTools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('CloudAdmin/js/datatables/extras/TableTools/media/js/ZeroClipboard.min.js') }}"></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -173,13 +183,13 @@
                         <li id="queryStaff"><a class="" href="/StaffManage/queryStaff"><span class="sub-menu-text">员工列表</span></a></li>
                     </ul>
                 </li>
-                <li class="has-sub">
+                <li class="has-sub" id="SaleManage">
                     <a href="javascript:;" class="">
-                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">一级菜单3</span>
+                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">销售管理</span>
                         <span class="arrow"></span>
                     </a>
                     <ul class="sub">
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单1</span></a></li>
+                        <li id="followUp"><a class="" href="/SaleManage/followUp"><span class="sub-menu-text">客户跟踪</span></a></li>
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单2</span></a></li>
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单3</span></a></li>
                     </ul>
