@@ -226,7 +226,10 @@ class KehuController extends Controller {
             $kehu = Kehu::whereRaw($sql)->get(['lastjytime','ID' , 'address' , 'name' , 'fuzheren' , 'lasthftime' , 'hfren']);
             $arr = array();
             for($i = 0; $i < count($kehu); $i++){
-                $sum = 0;//Ddmessage::where('kehuid' , $kehu[$i]['ID'])->get(sum(['sums']));
+                $ddsql = 'kehuid = ' . $kehu[$i]['ID'] . ' AND stats < 6';
+                if ($starttime != "") $ddsql .= " AND xiadangtime >= '$starttime'";
+                if ($endtime != "") $ddsql .= " AND xiadangtime <= '$endtime'";
+                $jysum = Ddmessage::whereRaw($ddsql)->sum('sums');
                 $dayOfjy = ceil((strtotime(date("y-m-d"))-strtotime($kehu[$i]['lastjytime']))/86400);
                 $dayOfhf = ceil((strtotime(date("y-m-d"))-strtotime($kehu[$i]['lasthftime']))/86400);
                 $arr[] = array(
@@ -237,7 +240,7 @@ class KehuController extends Controller {
                     'fuzeren'=>$kehu[$i]['fuzheren'],
                     'lasthftime'=>$kehu[$i]['lasthftime'],
                     'hfren'=>$kehu[$i]['hfren'],
-                    'jysum'=>$sum,
+                    'jysum'=>$jysum,
                     'dayOfjy'=>$dayOfjy,
                     'dayOfhf'=>$dayOfhf
                 );

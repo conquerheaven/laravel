@@ -24,6 +24,11 @@
                     <div class="form-group">
 
                         <div class="col-md-12">
+                            <div class="col-md-3 trBlue">超过15天未交易且未回访</div>
+                            <div class="col-md-3 trYellow">超过30天未交易且未回访</div>
+                            <div class="col-md-3 trRed">超过60天未交易且未回访</div>
+                        </div>
+                        <div class="col-md-12">
                             地区:
                             <select id="diqu" name="diqu" class="">
                                 <option value="-1">请选择地区</option>
@@ -75,487 +80,7 @@
                                 </tr>
                                 </thead>
                                 <tbody id="followInfo">
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trBlue">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trYellow">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="">
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                    <td>Trident</td>
-                                    <td>
-                                        Internet
-                                        Explorer
-                                        4.0
-                                    </td>
-                                    <td>Win 95+</td>
-                                    <td>4</td>
-                                    <td>X</td>
-                                </tr>
-                                <tr class="trRed">
+                                <!--<tr class="trRed">
                                     <td>Trident</td>
                                     <td>
                                         Internet
@@ -648,7 +173,7 @@
                                     <th>最后回访时间</th>
                                     <th>未回访时间</th>
                                     <th>回访人</th>
-                                </tr>
+                                </tr>-->
                                 </tfoot>
                             </table>
                         </div>
@@ -689,15 +214,15 @@
     <style>
         .trRed
         {
-            background-color: #ff5f61;
+            background-color: #ff9497;
         }
         .trBlue
         {
-            background-color: #6b67ff;
+            background-color: #bccaff;
         }
         .trYellow
         {
-            background-color: #ffd63d;
+            background-color: #ffe280;
         }
     </style>
     <script>
@@ -878,16 +403,17 @@
                         );
                         var followInfo = jsonData.followInfo;
                         for(var i = 0; i < followInfo.length; i++){
-                            if(0){
-                                $("#followInfo").append('<tr class="trBlue">');
-                            }else if(0){
-                                $("#followInfo").append('<tr class="trRed">');
-                            }else if(0){
-                                $("#followInfo").append('<tr class="trYellow">');
+                            if(followInfo[i].dayOfjy > 60 && followInfo[i].dayOfhf > 60){
+                                $("#followInfo").append('<tr class="trRed" id="' + followInfo[i].kehuid + '"></tr>');
+                            }else if(followInfo[i].dayOfjy > 30 && followInfo[i].dayOfhf > 30){
+                                $("#followInfo").append('<tr class="trYellow" id="' + followInfo[i].kehuid + '"></tr>');
+                            }else if(followInfo[i].dayOfjy > 15 && followInfo[i].dayOfhf > 15){
+                                $("#followInfo").append('<tr class="trBlue" id="' + followInfo[i].kehuid + '"></tr>');
+                            }else{
+                                $("#followInfo").append('<tr class="" id="' + followInfo[i].kehuid + '"></tr>');
                             }
-                            $("#followInfo").append(
-                                    '<tr class="trYellow">'+
-                                    '<td>'+i+'</td>'+
+                            $("#"+followInfo[i].kehuid).append(
+                                    '<td>'+(i+1)+'</td>'+
                                     '<td>'+followInfo[i].lastjytime+'</td>'+
                                     '<td>'+followInfo[i].dayOfjy+'</td>'+
                                     '<td>'+followInfo[i].address+'</td>'+
@@ -896,8 +422,7 @@
                                     '<td>'+followInfo[i].fuzeren+'</td>'+
                                     '<td>'+followInfo[i].lasthftime+'</td>'+
                                     '<td>'+followInfo[i].dayOfhf+'</td>'+
-                                    '<td>'+followInfo[i].hfren+'</td>'+
-                                    '</tr>');
+                                    '<td>'+followInfo[i].hfren+'</td>');
                         }
                         iniTable();
                     }
