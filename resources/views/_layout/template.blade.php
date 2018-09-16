@@ -190,7 +190,7 @@
                     </a>
                     <ul class="sub">
                         <li id="followUp"><a class="" href="/SaleManage/followUp"><span class="sub-menu-text">客户跟踪</span></a></li>
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单2</span></a></li>
+                        <li id="addOrder"><a class="" href="/SaleManage/addOrder"><span class="sub-menu-text">下单</span></a></li>
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单3</span></a></li>
                     </ul>
                 </li>

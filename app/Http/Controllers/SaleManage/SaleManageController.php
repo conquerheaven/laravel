@@ -86,4 +86,9 @@ class SaleManageController extends Controller {
 	    return view("SaleManage/followUp");
     }
 
+    public function addOrder()
+    {
+        return view("SaleManage/addOrder");
+    }
+
 }

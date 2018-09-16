@@ -95,4 +95,5 @@ Route::group(['prefix' => 'SaleManage', 'namespace' => 'SaleManage' ,'middleware
 {
     Route::get('/', 'SaleManageController@index');
     Route::get('/followUp', 'SaleManageController@followUp');
+    Route::get('/addOrder', 'SaleManageController@addOrder');
 });
