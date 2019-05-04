@@ -248,7 +248,11 @@
     jQuery(document).ready(function() {
         App.setPage("index");  //Set current page
         App.init(); //Initialise plugins and elements
-        $("#username").val(user['name']);
+        $("#username").html(user['UserName']);
+        if(user['UserName'] != "admin" && user['UserName'] != "曾彬") {
+            $("#UserManage").hide();
+            $("#StaffManage").hide();
+        }
     });
 
     function Logout(){
