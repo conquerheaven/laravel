@@ -39,6 +39,7 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::get('/Tuoyunbu/getAll','TuoyunbuController@getAll');
 	Route::get('/Tuoyunbu/getByNameAndPhone','TuoyunbuController@getByNameAndPhone');
 	Route::get('/Tuoyunbu/getById','TuoyunbuController@getById');
+    Route::post('/Tuoyunbu/update/{id}', 'TuoyunbuController@update');
 
 	Route::get('/Shoukuanfs/getAll','ShoukuanfsController@getAll');
 
@@ -96,4 +97,10 @@ Route::group(['prefix' => 'SaleManage', 'namespace' => 'SaleManage' ,'middleware
     Route::get('/', 'SaleManageController@index');
     Route::get('/followUp', 'SaleManageController@followUp');
     Route::get('/addOrder', 'SaleManageController@addOrder');
+});
+
+Route::group(['prefix' => 'LogisticsManage', 'namespace' => 'LogisticsManage' ,'middleware' => 'login'], function()
+{
+    Route::get('/', 'LogisticsManageController@index');
+    Route::get('/queryLogistics', 'LogisticsManageController@queryLogistics');
 });

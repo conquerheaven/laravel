@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Tuoyunbu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Psy\Exception\Exception;
+
 class TuoyunbuController extends Controller {
 
 	/**
@@ -68,7 +70,13 @@ class TuoyunbuController extends Controller {
 	 */
 	public function update($id)
 	{
-		//
+        $data = Input::all();
+        try{
+            Tuoyunbu::where('ID',$id)->update($data);
+            return json_encode(array('result'=>true));
+        }catch (Exception $e){
+            return json_encode(array('result'=>false,'message'=>$e));
+        }
 	}
 
 	/**

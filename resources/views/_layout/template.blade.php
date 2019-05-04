@@ -194,13 +194,13 @@
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单3</span></a></li>
                     </ul>
                 </li>
-                <li class="has-sub">
+                <li class="has-sub" id="LogisticsManage">
                     <a href="javascript:;" class="">
-                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">一级菜单4</span>
+                        <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">物流管理</span>
                         <span class="arrow"></span>
                     </a>
                     <ul class="sub">
-                        <li><a class="" href="#"><span class="sub-menu-text">二级菜单1</span></a></li>
+                        <li id="queryLogistics"><a class="" href="/LogisticsManage/queryLogistics"><span class="sub-menu-text">托运部查询</span></a></li>
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单2</span></a></li>
                         <li><a class="" href="#"><span class="sub-menu-text">二级菜单3</span></a></li>
                     </ul>
