@@ -34,6 +34,8 @@ Route::group(['prefix' => 'common', 'namespace' => 'common'], function()
 	Route::post('/Kehu/insert','KehuController@insert');
     Route::get('/Kehu/getFollowInfo' , 'KehuController@getFollowInfo');
 
+    Route::get('/Product/getByNameAndIdname', 'ProductController@getByNameAndIdname');
+
 	Route::get('/Area/getLowerById','AreaController@getLowerById');
 
 	Route::get('/Tuoyunbu/getAll','TuoyunbuController@getAll');
