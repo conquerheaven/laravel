@@ -249,9 +249,14 @@
         App.setPage("index");  //Set current page
         App.init(); //Initialise plugins and elements
         $("#username").html(user['UserName']);
-        if(user['UserName'] != "admin" && user['UserName'] != "曾彬") {
-            $("#UserManage").hide();
-            $("#StaffManage").hide();
+        $("#UserManage").hide();
+        $("#StaffManage").hide();
+        if(user['ClassTyep'] == 1000) {
+            $("#UserManage").show();
+            $("#StaffManage").show();
+        }
+        if(user['ClassTyep'] == 10) {
+            $("#UserManage").show();
         }
     });
 

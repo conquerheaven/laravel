@@ -154,7 +154,7 @@
             getArea('diqu',0);
             getShoukuanfs();
             renderTybSelect2();
-            $("#caozuoren").val(user['name']);
+            $("#caozuoren").val(user['UserName']);
         });
 
         $("#diqu").change(function(){

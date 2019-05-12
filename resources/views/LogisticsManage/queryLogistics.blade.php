@@ -169,7 +169,6 @@
                     beizhu:$("#beizhu").val()
                 },
                 success:function(jsonData){
-                    alert(jsonData);
                     $("#submit").removeAttr('disabled');
                     $("#loading").hide();
                     if(jsonData.result){
